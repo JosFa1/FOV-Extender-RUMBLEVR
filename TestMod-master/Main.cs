@@ -3,11 +3,11 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace TestMod
+namespace ExtendFOV
 {
     public static class BuildInfo
     {
-        public const string Name = "TestMod"; // Name of the Mod.  (MUST BE SET)
+        public const string Name = "ExtendFOV"; // Name of the Mod.  (MUST BE SET)
         public const string Description = "Mod for Testing"; // Description for the Mod.  (Set as null if none)
         public const string Author = "TestAuthor"; // Author of the Mod.  (MUST BE SET)
         public const string Company = null; // Company that made the Mod.  (Set as null if none)
@@ -15,7 +15,7 @@ namespace TestMod
         public const string DownloadLink = null; // Download Link for the Mod.  (Set as null if none)
     }
 
-    public class TestMod : MelonMod
+    public class ExtendFOV : MelonMod
     {
         public GameObject mainCam = null;
         public override void OnInitializeMelon() {
@@ -43,7 +43,7 @@ namespace TestMod
 
         private IEnumerator FindHeadsetObject()
         {
-            while (true)
+            while (true) 
             {
                 mainCam = GameObject.Find("Headset");
                 if (mainCam != null)
@@ -53,7 +53,7 @@ namespace TestMod
                 }
                 else
                 {
-                    Debug.Log("Main cam is null, waiting for it...");
+                    Debug.Log("Main cam is null, waiting for it... ");
                 }
                 yield return mainCam;
             }

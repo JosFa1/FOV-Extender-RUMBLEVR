@@ -1,15 +1,15 @@
 ﻿using System.Reflection;
 using MelonLoader;
 
-[assembly: AssemblyTitle(TestMod.BuildInfo.Description)]
-[assembly: AssemblyDescription(TestMod.BuildInfo.Description)]
-[assembly: AssemblyCompany(TestMod.BuildInfo.Company)]
-[assembly: AssemblyProduct(TestMod.BuildInfo.Name)]
-[assembly: AssemblyCopyright("Created by " + TestMod.BuildInfo.Author)]
-[assembly: AssemblyTrademark(TestMod.BuildInfo.Company)]
-[assembly: AssemblyVersion(TestMod.BuildInfo.Version)]
-[assembly: AssemblyFileVersion(TestMod.BuildInfo.Version)]
-[assembly: MelonInfo(typeof(TestMod.TestMod), TestMod.BuildInfo.Name, TestMod.BuildInfo.Version, TestMod.BuildInfo.Author, TestMod.BuildInfo.DownloadLink)]
+[assembly: AssemblyTitle(ExtendFOV.BuildInfo.Description)]
+[assembly: AssemblyDescription(ExtendFOV.BuildInfo.Description)]
+[assembly: AssemblyCompany(ExtendFOV.BuildInfo.Company)]
+[assembly: AssemblyProduct(ExtendFOV.BuildInfo.Name)]
+[assembly: AssemblyCopyright("Created by " + ExtendFOV.BuildInfo.Author)]
+[assembly: AssemblyTrademark(ExtendFOV.BuildInfo.Company)]
+[assembly: AssemblyVersion(ExtendFOV.BuildInfo.Version)]
+[assembly: AssemblyFileVersion(ExtendFOV.BuildInfo.Version)]
+[assembly: MelonInfo(typeof(ExtendFOV.ExtendFOV), ExtendFOV.BuildInfo.Name, ExtendFOV.BuildInfo.Version, ExtendFOV.BuildInfo.Author, ExtendFOV.BuildInfo.DownloadLink)]
 [assembly: MelonColor()]
 
 // Create and Setup a MelonGame Attribute to mark a Melon as Universal or Compatible with specific Games.
