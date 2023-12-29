@@ -43,14 +43,12 @@ namespace TestMod
 
         private IEnumerator FindHeadsetObject()
         {
-            bool aa = true;
             while (true)
             {
                 mainCam = GameObject.Find("Headset");
                 if (mainCam != null)
                 {
                     Debug.Log("Main cam is not null, this is good.");
-                    aa = false;
                     break;
                 }
                 else
