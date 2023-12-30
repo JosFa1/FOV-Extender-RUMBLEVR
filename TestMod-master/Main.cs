@@ -8,11 +8,11 @@ namespace ExtendFOV
     public static class BuildInfo
     {
         public const string Name = "ExtendFOV"; // Name of the Mod.  (MUST BE SET)
-        public const string Description = "Mod for Testing"; // Description for the Mod.  (Set as null if none)
-        public const string Author = "TestAuthor"; // Author of the Mod.  (MUST BE SET)
+        public const string Description = "Extend the FOV of the user to 120"; // Description for the Mod.  (Set as null if none)
+        public const string Author = "JosFa"; // Author of the Mod.  (MUST BE SET)
         public const string Company = null; // Company that made the Mod.  (Set as null if none)
         public const string Version = "1.0.0"; // Version of the Mod.  (MUST BE SET)
-        public const string DownloadLink = null; // Download Link for the Mod.  (Set as null if none)
+        public const string DownloadLink = "https://github.com/JosFa1/FOV-Extender-RUMBLEVR/releases/download/1.0.0/ExtendFOV.dll"; // Download Link for the Mod.  (Set as null if none)
     }
 
     public class ExtendFOV : MelonMod
